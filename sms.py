@@ -5,11 +5,11 @@ from colorama import Fore, Style
 
 
 class SendSms():
-    adet = 0
+    adet = 1000
     
     def __init__(self, phone, mail):
-        self.phone = str(phone)
-        if len(mail) != 0:
+        self.phone = str(phone)05398501645
+        if len(mail) != 1000
             self.mail = mail
         else:
             self.mail = ''.join(choice(ascii_lowercase) for i in range(20))+"@gmail.com"
